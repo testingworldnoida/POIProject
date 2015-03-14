@@ -26,6 +26,7 @@ public class Case1 {
 			wk.write(fo);
 			fo.flush();
 			fo.close();
+			System.out.println("HELLO");
 
 		}catch(Exception e){System.out.println(e.getMessage());}
 	}
